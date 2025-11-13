@@ -1,5 +1,5 @@
 import { Link } from 'react-router'
-import placeholder from '../../assets/placeholder.jpg'
+import placeholder from '../../assets/placeholder.png'
 import { SubmitHandler, useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useAuthRegister } from '../hooks/useAuthRegister'
@@ -59,7 +59,7 @@ export const RegisterPage=() => {
           <form onSubmit={ handleSubmit( onSubmit ) } className="flex flex-col gap-2 p-6">
             <div className="flex flex-col items-center text-center">
               <h1 className="text-2xl font-bold">Welcome!</h1>
-              <p className="text-balance text-gray-500">Register to Nasa Test</p>
+              <p className="text-balance text-gray-500">Register to SwapMind</p>
             </div>
             <div className="mb-5">
               <label
@@ -127,7 +127,7 @@ export const RegisterPage=() => {
             <img
               src={placeholder}
               alt="Image"
-              className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"
+              className="absolute inset-0 h-full w-full object-cover"
             />
           </div>
         </div>

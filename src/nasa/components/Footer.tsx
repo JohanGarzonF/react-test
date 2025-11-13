@@ -12,7 +12,7 @@ export const Footer=() => {
             href="https://www.linkedin.com/in/johan-danilo-garz%C3%B3n-forero-djs20220304/"
             target='_blank'
             className="hover:underline">
-              Johan Garzon™
+              SwapMind™
             </a>. All Rights Reserved.
         </span>
         <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">

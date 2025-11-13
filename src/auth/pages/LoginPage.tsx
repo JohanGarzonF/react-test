@@ -6,7 +6,7 @@ import { loginSchema } from '../validations/userSchema'
 import { useAuthLogin } from '../hooks/useAuthLogin'
 
 import Swal from 'sweetalert2'
-import placeholder from '../../assets/placeholder.jpg'
+import placeholder from '../../assets/placeholder.png'
 import { useEffect } from 'react'
 
 
@@ -63,7 +63,7 @@ export const LoginPage=() => {
           <form onSubmit={ handleSubmit( onSubmit ) } className="flex flex-col gap-2 p-6">
             <div className="flex flex-col items-center text-center">
               <h1 className="text-2xl font-bold">Welcome Back!</h1>
-              <p className="text-balance text-gray-500">Enter to your Nasa Image Test account</p>
+              <p className="text-balance text-gray-500">Enter to your SwapMind account</p>
             </div>
             <div className="mb-5">
               <label
@@ -122,7 +122,7 @@ export const LoginPage=() => {
             <img
               src={placeholder}
               alt="Image"
-              className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"
+              className="absolute inset-0 h-full w-full object-cover  "
             />
           </div>
         </div>

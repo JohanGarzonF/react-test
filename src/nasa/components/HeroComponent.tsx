@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router'
-import photo from '../../assets/landingwebp.webp'
+import photo from '../../assets/landingwebp.png'
 import { useAuthStore } from '../../store/authStore'
 
 export const HeroComponent=() => {
@@ -27,9 +27,9 @@ export const HeroComponent=() => {
       }}></div>
       <div className="text-neutral-content text-white z-10 p-10">
         <div className="max-w-2xl">
-          <h1 className="mb-5 text-7xl font-bold">NASA Test Images</h1>
+          <h1 className="mb-5 text-7xl font-bold">SwapMind</h1>
           <p className="mb-5 text-2xl w-full">
-            NASA has always told its story through its images, a few of which have become icons of human history.
+            At SwapMind, you can connect with people from around the world who are ready to share what they know. Whether you want to learn to paint, improve your programming, or explore something new, here you can swap skills directly with others.
           </p>
           {
             !login.success && (

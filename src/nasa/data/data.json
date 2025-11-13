@@ -1,0 +1,32 @@
+[
+  {
+    "url": "src/assets/images/angular.png",
+    "title": "Angular course",
+    "description": "This is a course about Angular where you can learn to build web applications"
+  },
+  {
+    "url": "src/assets/images/django.png",
+    "title": "Django course",
+    "description": "This is a course about Django where you can learn to build web applications"
+  },
+  {
+    "url": "src/assets/images/javascript.png",
+    "title": "JavaScript course",
+    "description": "This is a course about JavaScript where you can learn to build web applications"
+  },
+  {
+    "url": "src/assets/images/typescript.png",
+    "title": "TypeScript course",
+    "description": "This is a course about TypeScript where you can learn to build web applications"
+  },
+  {
+    "url": "src/assets/images/comunication_fundamentals.png",
+    "title": "Comunication Fundamentals course",
+    "description": "This is a course about Comunication Fundamentals where you can learn to build web applications"
+  },
+  {
+    "url": "src/assets/images/agile_fundamentals.png",
+    "title": "Agile Fundamentals course",
+    "description": "This is a course about Agile Fundamentals where you can learn to build web applications"
+  }
+]

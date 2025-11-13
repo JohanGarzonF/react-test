@@ -17,7 +17,7 @@ export const Navbar=() => {
   return (
     <nav className="flex dark:bg-black items-center fixed z-20 justify-between bg-white px-5 py-6 w-full h-14">
       <div>
-        <Link to={'/'} className='text-white font-bold cursor-pointer'>NASA</Link>
+        <Link to={'/'} className='text-white font-bold cursor-pointer'>SwapMind</Link>
       </div>
       <div className="flex gap-3 items-center">
         <div className="">
